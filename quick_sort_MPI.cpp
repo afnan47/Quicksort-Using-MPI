@@ -1,5 +1,4 @@
-// C program to implement the Quick Sort
-// Algorithm using MPI
+//Source : GeeksForGeeks
 #include <mpi.h>
 #include <stdio.h>
 #include <stdlib.h>
