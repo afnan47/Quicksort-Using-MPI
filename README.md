@@ -14,8 +14,9 @@ Getting the MPI library set up on windows is quite a hassel. The best way to set
 8. First enter the number of elements in your array and then the elements. For Example: 5 71 64 -12 434 3.
 9. Save your input file and exit.
 10. Run `mpirun -np 4 ./quick_sort_MPI input.txt output.txt`.
-11. According to the number of processes you want you can change the value for the `-np` flag. For example, `-np 4`, `-np 10`.
 
+According to the number of processes you want you can change the value for the `-np` flag. For example, `-np 4`, `-np 10`.
+You do not need to compile the program again if you make changes in input.txt, simply do step 10.
 
 ### Linux Users can start from step 3.
 
